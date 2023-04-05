@@ -1,0 +1,101 @@
+.bgColorBlack {background-color: black;}
+.bgColorAzul {background-color: #038bbb;}
+.bgColorGris {background-color: grey;}
+.bgColorAmarillo {background-color: lightyellow;}
+header {display: flex; align-items: center; max-width: 100%;}
+.logo {width: 8%; height: auto; margin: 5%;}
+.logoFooter img {width: 10%; height: 20%; margin: 0;}
+footer {display: flex; justify-content: center;}
+.beYou {color: rgb(230, 154, 13) ;display: flex; justify-content: center;align-items: center; margin: 10px;}
+.envio {color: white; display: flex; justify-content: center; margin: 10px;}
+.inputNav {margin: 30%;}
+ul {list-style: none; display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
+li {margin: 15px ;padding: 5%; font-size: 150%;}
+a {text-decoration: none}
+a:hover {text-decoration: underline; font-size: 105%;}
+main {display: flex; justify-content: space-around;}
+.tamaño img {width: 100%; height: 100%; object-fit: cover;}
+.img1 a {font-size: x-large; 
+  color: white;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+  padding: 10%;}
+  .img2 a {font-size: x-large; 
+      color: white;
+        position:absolute;
+        display: flex;
+        justify-content: center;
+      padding: 10%;}
+      .img3 a {font-size: x-large; 
+          color: white;
+            position:absolute;
+            display: flex;
+            justify-content: center;
+          padding: 10%;}
+          .img4 a {font-size:x-large; 
+              color: white;
+                position:absolute;
+                display: flex;
+                justify-content: center;
+              padding: 5%;
+          margin: 5%;}
+.img4 {display: flex; justify-content: center;align-items: center;}
+.tamaño a:hover {font-size: 155%; text-decoration: underline;}
+.tamaño2 img {width: 80%; height: 100%;}
+footer {display: flex; justify-content: center;}
+
+.mainQsomos p {color: white; font-size: x-large;}
+.mainQsomos h1 {color: white}
+.mainQsomos {display: flex; flex-direction: column; align-items: center;}
+
+.indexGrid {display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 150px 50px 50px 1000px 150px;
+grid-template-areas: 
+"header"
+"rectangulo1"
+"rectangulo2"
+"main"
+"footer"}
+header {grid-area: header;}
+.rectangulo1 {grid-area: rectangulo1}
+.rectangulo2 {grid-area: rectangulo2;}
+main {grid-area: main;}
+
+.mainIndex {display: grid; 
+    grid-template-columns: 33% 34% 33%;
+     grid-template-rows: 300px 700px;
+     grid-template-areas: 
+     "img1 img2 img3"
+     "img4 img4 img4";}
+.img1 {grid-area: img1;} 
+.img2 {grid-area: img2;} 
+.img3 {grid-area: img3;}
+.img4 {grid-area: img4;}   
+
+
+.footerGrid {display: grid;
+grid-template-columns: 14% 14% 14% 16% 14% 14% 14%;
+grid-template-rows: 150px;
+grid-template-areas: 
+"rrss1 rrss2 rrss3 rrss4 rrss5 rrss6 rrss7";}
+.rrss1 {grid-area: rrss1;}
+.rrss2 {grid-area: rrss2;}
+.rrss3 {grid-area: rrss3;}
+.rrss4 {grid-area: rrss4;}
+.rrss5 {grid-area: rrss5;}
+.rrss6 {grid-area: rrss6;}
+.rrss7 {grid-area: rrss7;}
+
+@media (max-width:1450px){
+ main, footer, header {display:flex; flex-direction: column;}
+  .desaparecer {display: none}
+  ul {display: flex; flex-direction: column;}
+  li {padding: 1%;}
+  .img1, .img2, .img3 {display: flex; flex-direction: column;}
+  footer {background-color: #038bbb;}
+}
+
+
+
