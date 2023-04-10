@@ -1,11 +1,11 @@
+html, body {margin: 0; padding: 0; height: 100%;}
 .bgColorBlack {background-color: black;}
 .bgColorAzul {background-color: #038bbb;}
 .bgColorGris {background-color: grey;}
 .bgColorAmarillo {background-color: lightyellow;}
 header {display: flex; align-items: center; max-width: 100%;}
 .logo {width: 8%; height: auto; margin: 5%;}
-.logoFooter img {width: 10%; height: 20%; margin: 0;}
-footer {display: flex; justify-content: center;}
+
 .beYou {color: rgb(230, 154, 13) ;display: flex; justify-content: center;align-items: center; margin: 10px;}
 .envio {color: white; display: flex; justify-content: center; margin: 10px;}
 .inputNav {margin: 30%;}
@@ -13,8 +13,10 @@ ul {list-style: none; display: flex; flex-direction: row; justify-content: space
 li {margin: 15px ;padding: 5%; font-size: 150%;}
 a {text-decoration: none}
 a:hover {text-decoration: underline; font-size: 105%;}
-main {display: flex; justify-content: space-around;}
-.tamaño img {width: 100%; height: 100%; object-fit: cover;}
+
+
+.tamaño img {width: 100%; height: 100%; ;}
+.img1, .img2, .img3, .img4 {align-items: center; justify-content: center;}
 .img1 a {font-size: x-large; 
   color: white;
     position:absolute;
@@ -26,6 +28,7 @@ main {display: flex; justify-content: space-around;}
         position:absolute;
         display: flex;
         justify-content: center;
+        align-items: center;
       padding: 10%;}
       .img3 a {font-size: x-large; 
           color: white;
@@ -43,7 +46,6 @@ main {display: flex; justify-content: space-around;}
 .img4 {display: flex; justify-content: center;align-items: center;}
 .tamaño a:hover {font-size: 155%; text-decoration: underline;}
 .tamaño2 img {width: 80%; height: 100%;}
-footer {display: flex; justify-content: center;}
 
 .mainQsomos p {color: white; font-size: x-large;}
 .mainQsomos h1 {color: white}
@@ -51,7 +53,7 @@ footer {display: flex; justify-content: center;}
 
 .indexGrid {display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 150px 50px 50px 1000px 150px;
+grid-template-rows: 150px 50px 50px 75% auto;
 grid-template-areas: 
 "header"
 "rectangulo1"
@@ -62,10 +64,12 @@ header {grid-area: header;}
 .rectangulo1 {grid-area: rectangulo1}
 .rectangulo2 {grid-area: rectangulo2;}
 main {grid-area: main;}
+footer {grid-area: footer;}
+
 
 .mainIndex {display: grid; 
     grid-template-columns: 33% 34% 33%;
-     grid-template-rows: 300px 700px;
+     grid-template-rows: 30% 70%;
      grid-template-areas: 
      "img1 img2 img3"
      "img4 img4 img4";}
@@ -88,14 +92,42 @@ grid-template-areas:
 .rrss6 {grid-area: rrss6;}
 .rrss7 {grid-area: rrss7;}
 
+
+/*MEDIA QUERIES*/
+
 @media (max-width:1450px){
- main, footer, header {display:flex; flex-direction: column;}
-  .desaparecer {display: none}
+.desaparecer {display: none;}
+header {display: flex; justify-content: center;}
+.logo {width: 13%; height: auto;}
+
+  .mainIndex {display: grid; 
+    grid-template-columns: 100%;
+     grid-template-rows: 25% 25% 25% 25%;
+     grid-template-areas: 
+     "img1"
+     "img2"
+     "img3"
+     "img4";}
+.img1 {grid-area: img1;} 
+.img2 {grid-area: img2;} 
+.img3 {grid-area: img3;}
+.img4 {grid-area: img4;} 
+
+.roll {width: 100%; height: auto; object-fit: cover;}
+.logoFooter img {width: auto ; height: auto;}
+footer {justify-content: center; display: flex; align-items: center;}
+.envio {font-size: 90%;}
+.beYou {font-size: 80%;}   
+
   ul {display: flex; flex-direction: column;}
   li {padding: 1%;}
   .img1, .img2, .img3 {display: flex; flex-direction: column;}
-  footer {background-color: #038bbb;}
+  
+  .rrss4 img {width: 50%; height: 50%;}
+  .indexGrid {position: relative;}
+ 
 }
+
 
 
 
