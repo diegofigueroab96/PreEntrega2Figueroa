@@ -99,6 +99,7 @@ grid-template-areas:
 .desaparecer {display: none;}
 header {display: flex; justify-content: center;}
 .logo {width: 13%; height: auto;}
+.footerGrid {justify-content: space-between;}
 
   .mainIndex {display: grid; 
     grid-template-columns: 100%;
