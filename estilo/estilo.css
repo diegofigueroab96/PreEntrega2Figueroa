@@ -5,13 +5,14 @@ html, body {margin: 0; padding: 0; height: 100%;}
 .bgColorAmarillo {background-color: lightyellow;}
 header {display: flex; align-items: center; max-width: 100%;}
 .logo {width: 8%; height: auto; margin: 5%;}
+.marginImg {margin: 2px;}
 
 .beYou {color: rgb(230, 154, 13) ;display: flex; justify-content: center;align-items: center; margin: 10px;}
 .envio {color: white; display: flex; justify-content: center; margin: 10px;}
 .inputNav {margin: 30%;}
 ul {list-style: none; display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
 li {margin: 15px ;padding: 5%; font-size: 150%;}
-a {text-decoration: none}
+a {text-decoration: none; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-shadow: 3px 3px black;}
 a:hover {text-decoration: underline; font-size: 105%;}
 
 
@@ -99,9 +100,7 @@ grid-template-areas:
 .desaparecer {display: none;}
 header {display: flex; justify-content: center;}
 .logo {width: 13%; height: auto;}
-
-
-  .mainIndex {display: grid; 
+ .mainIndex {display: grid; 
     grid-template-columns: 100%;
      grid-template-rows: 25% 25% 25% 25%;
      grid-template-areas: 
