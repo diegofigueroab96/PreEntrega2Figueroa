@@ -136,8 +136,8 @@ footer {justify-content: center; display: flex; align-items: center;}
     .rrss5 {grid-area: rrss5;}
     .rrss6 {grid-area: rrss6;}
   
-  .menuHamb {display: flex; width: 12%; height: 12%;}
-  .userIcon {display: flex; width: 20%; height: 20%;}
+  .menuHamb {display: flex; width: 12%; height: 12%; object-fit: contain;}
+  .userIcon {display: flex; width: 20%; height: 20%;object-fit: contain;}
   header {display: flex; flex-direction: row;}
 
   header {display: grid;
@@ -150,6 +150,7 @@ grid-template-areas: "menuHamb logo userIcon" ;}
 
 header {justify-items: center;}
 .logo {width: 50%; height: 50%; object-fit:contain;}
+
     
  
 }
