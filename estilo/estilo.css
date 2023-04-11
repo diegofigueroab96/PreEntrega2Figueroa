@@ -14,8 +14,7 @@ ul {list-style: none; display: flex; flex-direction: row; justify-content: space
 li {margin: 15px ;padding: 5%; font-size: 150%;}
 a {text-decoration: none; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-shadow: 3px 3px black;}
 a:hover {text-decoration: underline; font-size: 105%;}
-
-
+.desaparecer2 {display: none}
 .tamaño img {width: 100%; height: 100%; ;}
 .img1, .img2, .img3, .img4 {align-items: center; justify-content: center;}
 .img1 a {font-size: x-large; 
@@ -94,6 +93,7 @@ grid-template-areas:
 .rrss7 {grid-area: rrss7;}
 
 
+
 /*MEDIA QUERIES*/
 
 @media (max-width:1450px){
@@ -135,6 +135,21 @@ footer {justify-content: center; display: flex; align-items: center;}
     .rrss4 {grid-area: rrss4;}
     .rrss5 {grid-area: rrss5;}
     .rrss6 {grid-area: rrss6;}
+  
+  .menuHamb {display: flex; width: 12%; height: 12%;}
+  .userIcon {display: flex; width: 20%; height: 20%;}
+  header {display: flex; flex-direction: row;}
+
+  header {display: grid;
+  grid-template-columns: 33% 33% 33%;
+grid-auto-rows: 100%;
+grid-template-areas: "menuHamb logo userIcon" ;}
+.menuHamb {grid-area: menuHamb;}
+.logo {grid-area: logo;}
+.userIcon {grid-area: userIcon;}
+
+header {justify-items: center;}
+.logo {width: 50%; height: 50%; object-fit:contain;}
     
  
 }
