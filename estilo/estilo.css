@@ -137,10 +137,10 @@ footer {justify-content: center; display: flex; align-items: center;}
     .rrss6 {grid-area: rrss6;}
   
   .menuHamb {display: flex; width: 12%; height: 12%; object-fit: contain;}
-  .userIcon {display: flex; width: 17%; height: 17%;object-fit: contain; justify-content: center; align-items: center;}
+  .userIcon {display: flex; width: 15%; height: 15%;object-fit: contain; justify-content: center; align-items: center;}
   header {display: flex; flex-direction: row;}
-  .menuHamb img {max-width: 100%; max-height: 100%;}
-  .userIcon img {max-width: 100%; max-height: 100%; position: relative; top: 25%;}
+  /*.menuHamb img {max-width: 100%; max-height: 100%;}
+  .userIcon img {max-width: 100%; max-height: 100%; position: relative; top: 25%;}*/
 
   header {display: grid;
   grid-template-columns: 33% 34% 33%;
