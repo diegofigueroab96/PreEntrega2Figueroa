@@ -141,7 +141,7 @@ footer {justify-content: center; display: flex; align-items: center;}
   header {display: flex; flex-direction: row;}
 
   header {display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33% 34% 33%;
 grid-auto-rows: 100%;
 grid-template-areas: "menuHamb logo userIcon" ;}
 .menuHamb {grid-area: menuHamb;}
